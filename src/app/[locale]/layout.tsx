@@ -87,6 +87,7 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
           defer
           src="https://analytics.pablopl.dev/script.js"
           data-website-id="273a7dcb-741e-498b-bf0f-46cf376a7ba2"
+          data-performance="true"
         />
         <NextIntlClientProvider messages={messages}>
           {children}
