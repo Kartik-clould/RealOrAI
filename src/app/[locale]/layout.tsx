@@ -84,9 +84,10 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
         className={`${geistSans.variable} ${geistMono.variable} bg-gray-50 text-gray-900 antialiased`}
       >
         <Script
-          src="https://analytics.pablopl.dev/api/script.js"
-          data-site-id="3be61cc8855f"
-          strategy="afterInteractive"
+          defer
+          src="https://analytics.pablopl.dev/script.js"
+          data-website-id="273a7dcb-741e-498b-bf0f-46cf376a7ba2"
+          data-performance="true"
         />
         <NextIntlClientProvider messages={messages}>
           {children}
