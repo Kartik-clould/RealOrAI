@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "title": "📷 Real o IA 🍌",
+    "description": "¿Puedes distinguir entre fotos reales e imágenes generadas por IA?"
+  },
+  "home": {
+    "title": "📷 Real o IA 🍌",
+    "subtitle": "¿Puedes notar la diferencia?",
+    "solo": "Solo",
+    "soloDescription": "Juega solo y pon a prueba tus habilidades",
+    "withFriends": "Con Amigos",
+    "withFriendsDescription": "Crea una partida y juega con otros",
+    "howToPlay": "Cómo Jugar",
+    "howToPlayDescription": "Verás 12 imágenes. Para cada una, decide si es una foto real o generada por IA. Tienes 30 segundos por imagen. ¡Buena suerte!",
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "q1": {
+        "question": "¿Cómo funciona el juego?",
+        "answer": "Se te mostrarán una serie de imágenes (pregeneradas) aleatorias y deberás adivinar si cada una es una fotografía real o generada por IA. La web cuenta con muchas fotos en su base de datos (+700), por lo que cada partida será única."
+      },
+      "q2": {
+        "question": "¿De donde han salido estas fotos?",
+        "answer": "Por una parte, las fotos 'reales' han sido obtenidas de Unplash, usando la licencia de Unplash que permite su uso gratuito. Por otra parte, las fotos generadas por IA han sido creadas usando el modelo Nano Bannana Pro (gemini-3-pro-image-preview)."
+      },
+      "q3": {
+        "question": "¿Puedo jugar con amigos remotamente?",
+        "answer": "¡Sí! Elige el modo 'Con Amigos', crea una sala y comparte el código QR o el código de sala con tus amigos. Pueden unirse desde cualquier dispositivo con navegador web."
+      },
+      "q4": {
+        "question": "¿Quién y por qué ha creado esto?",
+        "answer": "Soy Pablo (el que sale al final de cada página de esta web), soy un estudiante de ingeniería informática y he creado este proyecto (en aprox. 24 horas) para tratar de concienciar al público general de la dificultad actual de distinguir imágenes reales de imágenes generadas por IA."
+      },
+      "q5": {
+        "question": "¿Esta web es de código abierto?",
+        "answer": "¡Sí! El código de esta web está disponible en GitHub, el link está en la cabecera de la página y públicado bajo una licencia Apache 2.0. Puedes ir a echarle un vistazo si quieres aprender cómo funciona por dentro o incluso contribuir."
+      }
+    }
+  },
+  "game": {
+    "title": "📷 Real o IA 🍌",
+    "description": "12 imágenes. 30 segundos cada una. ¿Puedes detectar la IA?",
+    "back": "Atrás",
+    "round": "Ronda",
+    "of": "de",
+    "timeLeft": "Tiempo restante",
+    "seconds": "s",
+    "real": "📷 Real",
+    "ai": "🍌 IA",
+    "look": "¡Mira la imagen y vota!",
+    "correct": "¡Correcto!",
+    "incorrect": "¡Incorrecto!",
+    "wasReal": "Era una foto real",
+    "wasAI": "Era generada por IA",
+    "nextRound": "Siguiente Ronda",
+    "score": "Puntuación",
+    "finalScore": "Puntuación Final",
+    "youGot": "Obtuviste",
+    "outOf": "de",
+    "correct_plural": "correctas",
+    "percentage": "Eso es",
+    "play": "Empezar el juego",
+    "playAgain": "Jugar de Nuevo",
+    "backToHome": "Volver al Inicio",
+    "timesUp": "¡Se acabó el tiempo!",
+    "waiting": "Esperando siguiente ronda...",
+    "perfect": "¡Perfecto!",
+    "great": "¡Genial!",
+    "nice": "¡Bien!",
+    "keep": "¡Sigue intentando!",
+    "fooled": "¡La IA te engañó!"
+  },
+  "host": {
+    "back": "Atrás",
+    "scanToJoin": "Escanea para Unirte",
+    "orGoTo": "O ve a",
+    "roomCode": "Código de Sala",
+    "players": "Jugadores",
+    "waitingForPlayers": "Esperando que se unan jugadores...",
+    "startGame": "Iniciar Juego",
+    "minPlayers": "Se necesita al menos 1 jugador para iniciar",
+    "votes": "votos",
+    "waitingForVotes": "Esperando votos...",
+    "allVoted": "¡Todos han votado!",
+    "showingResults": "Mostrando resultados..."
+  },
+  "join": {
+    "joinGame": "Unirse al Juego",
+    "enterNickname": "Ingresa tu apodo",
+    "nickname": "Apodo",
+    "join": "Unirse",
+    "waiting": "Esperando que el anfitrión inicie...",
+    "gameStarting": "¡El juego está comenzando!",
+    "youVoted": "Votaste",
+    "waitingForResults": "Esperando resultados...",
+    "connected": "Conectado",
+    "players": "jugadores en el lobby"
+  },
+  "leaderboard": {
+    "title": "Tabla de Posiciones",
+    "correct": "correctas",
+    "rank": "Posición",
+    "player": "Jugador",
+    "score": "Puntuación",
+    "you": "(Tú)",
+    "playAgain": "Jugar de Nuevo",
+    "backToHome": "Volver al Inicio"
+  },
+  "errors": {
+    "roomNotFound": "Sala no encontrada",
+    "connectionLost": "Conexión perdida. Reconectando...",
+    "gameInProgress": "Juego en progreso",
+    "nicknameTaken": "Apodo ya en uso"
+  }
+}

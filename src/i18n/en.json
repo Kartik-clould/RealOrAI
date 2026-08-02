@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "title": "📷 Real or AI 🍌",
+    "description": "Can you tell the difference between real photos and AI-generated images?"
+  },
+  "home": {
+    "title": "📷 Real or AI 🍌",
+    "subtitle": "Can you tell the difference?",
+    "solo": "Solo",
+    "soloDescription": "Play alone and test your skills",
+    "withFriends": "With Friends",
+    "withFriendsDescription": "Host a game and play with others",
+    "howToPlay": "How to Play",
+    "howToPlayDescription": "You'll see 12 images. For each one, decide if it's a real photo or AI-generated. You have 30 seconds per image. Good luck!",
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": {
+        "question": "How does the game work?",
+        "answer": "You’ll be shown a series of random (pre-generated) images and you must guess whether each one is a real photograph or AI-generated. The website has many photos in its database (700+), so each game will be unique."
+      },
+      "q2": {
+        "question": "Where did these photos come from?",
+        "answer": "On the one hand, the ‘real’ photos were obtained from Unsplash, using the Unsplash license that allows free use. On the other hand, the AI-generated photos were created using the Nano Bannana Pro model (gemini-3-pro-image-preview)."
+      },
+      "q3": {
+        "question": "Can I play remotely with friends?",
+        "answer": "Yes! Choose the ‘With Friends’ mode, create a room, and share the QR code or room code with your friends. They can join from any device with a web browser."
+      },
+      "q4": {
+        "question": "Who created this and why?",
+        "answer": "I’m Pablo (the one who appears at the bottom of each page on this site), I’m a computer engineering student and I created this project (in approx. 24 hours) to try to raise general public awareness of how hard it currently is to distinguish real images from AI-generated images."
+      },
+      "q5": {
+        "question": "Is this website open source?",
+        "answer": "Yes! The code for this website is available on GitHub, the link is in the header of the page and published under an Apache 2.0 license. You can go take a look if you want to learn how it works under the hood or even contribute."
+      }
+    }
+  },
+  "game": {
+    "title": "📷 Real or AI 🍌",
+    "description": "12 images. 30 seconds each. Can you spot the AI?",
+    "back": "Back",
+    "round": "Round",
+    "of": "of",
+    "timeLeft": "Time left",
+    "seconds": "s",
+    "real": "📷 Real",
+    "ai": "🍌 AI",
+    "look": "Look at the screen and vote!",
+    "correct": "Correct!",
+    "incorrect": "Incorrect!",
+    "wasReal": "It was a real photo",
+    "wasAI": "It was AI-generated",
+    "nextRound": "Next Round",
+    "score": "Score",
+    "finalScore": "Final Score",
+    "youGot": "You got",
+    "outOf": "out of",
+    "correct_plural": "correct",
+    "percentage": "That's",
+    "play": "Start Game",
+    "playAgain": "Play Again",
+    "backToHome": "Back to Home",
+    "timesUp": "Time's up!",
+    "waiting": "Waiting for next round...",
+    "perfect": "Perfect!",
+    "great": "Great!",
+    "nice": "Nice!",
+    "keep": "Keep trying!",
+    "fooled": "AI fooled you!"
+  },
+  "host": {
+    "back": "Back",
+    "scanToJoin": "Scan to Join",
+    "orGoTo": "Or go to",
+    "roomCode": "Room Code",
+    "players": "Players",
+    "waitingForPlayers": "Waiting for players to join...",
+    "startGame": "Start Game",
+    "minPlayers": "Need at least 1 player to start",
+    "votes": "votes",
+    "waitingForVotes": "Waiting for votes...",
+    "allVoted": "Everyone has voted!",
+    "showingResults": "Showing results..."
+  },
+  "join": {
+    "joinGame": "Join Game",
+    "enterNickname": "Enter your nickname",
+    "nickname": "Nickname",
+    "join": "Join",
+    "waiting": "Waiting for host to start...",
+    "gameStarting": "Game is starting!",
+    "youVoted": "You voted",
+    "waitingForResults": "Waiting for results...",
+    "connected": "Connected",
+    "players": "players in lobby"
+  },
+  "leaderboard": {
+    "title": "Leaderboard",
+    "correct": "correct",
+    "rank": "Rank",
+    "player": "Player",
+    "score": "Score",
+    "you": "(You)",
+    "playAgain": "Play Again",
+    "backToHome": "Back to Home"
+  },
+  "errors": {
+    "roomNotFound": "Room not found",
+    "connectionLost": "Connection lost. Reconnecting...",
+    "gameInProgress": "Game already in progress",
+    "nicknameTaken": "Nickname already taken"
+  }
+}
