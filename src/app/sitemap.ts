@@ -3,7 +3,7 @@ import { locales, defaultLocale } from "@/i18n/config";
 
 const siteUrl = "https://realorai.pablopl.dev";
 
-const staticRoutes = ["", "/solo", "/host"] as const;
+const staticRoutes = ["", "/solo"] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();

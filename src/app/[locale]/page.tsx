@@ -2,9 +2,7 @@
 
 import Link from "next/link";
 import { useTranslations } from "next-intl";
-import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { Footer } from "@/components/Footer";
-import { FAQ } from "@/components/FAQ";
 
 export default function HomePage() {
   const t = useTranslations("home");
@@ -13,13 +11,7 @@ export default function HomePage() {
     <main className="flex min-h-dvh flex-col bg-gray-50">
       {/* Header */}
       <header className="flex justify-between p-4">
-        <a
-          href="https://github.com/TeenBiscuits/RealOrAI"
-          className="text-gray-600 decoration-wavy hover:underline"
-        >
-          TeenBiscuits/RealOrAI
-        </a>
-        <LanguageSwitcher />
+        <div />
       </header>
 
       {/* Main Content */}
@@ -50,38 +42,10 @@ export default function HomePage() {
               <p className="text-sm text-gray-600">{t("soloDescription")}</p>
             </Link>
 
-            {/* With Friends Mode */}
-            <Link
-              href="/host"
-              className="group shadow-material-2 hover:shadow-material-3 rounded-2xl border border-gray-200 bg-white p-8 transition-all duration-300 hover:scale-105 hover:border-purple-300"
-            >
-              <div className="mb-4 text-5xl">👥</div>
-              <h2 className="mb-2 text-2xl font-bold text-gray-900">
-                {t("withFriends")}
-              </h2>
-              <p className="text-sm text-gray-600">
-                {t("withFriendsDescription")}
-              </p>
-            </Link>
+            {/* Multiplayer removed */}
           </div>
 
-          {/* How to Play */}
-          <div
-            className="shadow-material-1 animate-fade-in rounded-2xl border border-gray-100 bg-white p-6 text-left"
-            style={{ animationDelay: "0.4s" }}
-          >
-            <h3 className="mb-3 text-lg font-semibold text-gray-900">
-              🎮 {t("howToPlay")}
-            </h3>
-            <p className="leading-relaxed text-gray-600">
-              {t("howToPlayDescription")}
-            </p>
-          </div>
-
-          {/* FAQ Section */}
-          <div className="animate-fade-in" style={{ animationDelay: "0.5s" }}>
-            <FAQ />
-          </div>
+          {/* How to Play and FAQ removed */}
         </div>
       </div>
 

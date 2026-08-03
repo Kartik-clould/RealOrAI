@@ -1,25 +1,24 @@
 import { NextRequest, NextResponse } from "next/server";
-import { selectGameImages } from "@/lib/images";
+import { selectGameImages } from "@/lib/image-server";
 
 export async function GET(request: NextRequest) {
   try {
     const { searchParams } = new URL(request.url);
     const includeTypes = searchParams.get("includeTypes") === "true";
     const excludeIdsParam = searchParams.get("excludeIds");
+    const countParam = parseInt(searchParams.get("count") ?? "12", 10);
+    const requestedCount = Number.isFinite(countParam) && countParam > 0 ? Math.min(countParam, 48) : 12;
 
-    // Parse excluded image IDs from query parameter
     const excludeIds: string[] = excludeIdsParam
       ? JSON.parse(decodeURIComponent(excludeIdsParam))
       : [];
 
-    const images = selectGameImages(12, excludeIds);
+    const images = selectGameImages(requestedCount, excludeIds);
 
     if (includeTypes) {
-      // For solo mode - include types (secure since it's all client-side)
       return NextResponse.json(images);
     }
 
-    // For multiplayer - remove types to prevent cheating
     const sanitizedImages = images.map((img) => ({
       id: img.id,
       src: img.src,

@@ -1,6 +1,6 @@
 import { RoomState, GameState, Player, GameImage, ImageType } from "./types";
 import { v4 as uuidv4 } from "uuid";
-import { selectGameImages } from "./images";
+import { selectGameImages } from "./image-server";
 
 // In-memory store for rooms (in production, use Redis or similar)
 const rooms = new Map<string, RoomState>();
